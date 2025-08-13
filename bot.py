@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters import Command
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 # ==== Настройки ====
-TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+TOKEN = os.getenv("BOT_TOKEN", "7988401496:AAG1bLJFfLrQoohxCpL-NKP6e3LlHf30SQ8")
 WEBHOOK_HOST = os.getenv("RENDER_EXTERNAL_URL")
 WEBHOOK_PATH = "/webhook"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
